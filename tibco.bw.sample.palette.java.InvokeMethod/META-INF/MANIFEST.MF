@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tibco Bw Sample Palette Java InvokeMethod Module
+Bundle-SymbolicName: tibco.bw.sample.palette.java.InvokeMethod
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .,
+ .annoxfiles/
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: jmexample
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-Version: 1.2.0 V18 2014-09-27
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.file)",
+ com.tibco.bw.palette; filter:="(name=bw.java)",
+ com.tibco.bw.palette; filter:="(name=bw.xml)"

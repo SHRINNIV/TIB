@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance" xmlns:tns="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Balance" type="tns:BalanceType"/>
+
+  <xs:complexType name="BalanceType">
+    <xs:sequence>
+      <xs:element name="AccountId" type="xs:string" minOccurs="0"/>
+      <xs:element name="CustomerFirstName" type="xs:string" minOccurs="0"/>
+      <xs:element name="CustomerLastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="checkingBalance" type="xs:double" minOccurs="0"/>
+      <xs:element name="savingsBalance" type="xs:double" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

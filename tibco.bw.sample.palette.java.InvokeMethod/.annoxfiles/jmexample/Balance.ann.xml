@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="Balance">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="BalanceType" propOrder="accountId customerFirstname customerLastName checkingBalance savingsBalance "/>
+  <jaxb:XmlRootElement name="Balance" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance"/>
+  <annox:field name="accountId">
+    <jaxb:XmlElement name="AccountId" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance"/>
+  </annox:field>
+  <annox:field name="customerFirstname">
+    <jaxb:XmlElement name="CustomerFirstName" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance"/>
+  </annox:field>
+  <annox:field name="customerLastName">
+    <jaxb:XmlElement name="CustomerLastName" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance"/>
+  </annox:field>
+  <annox:field name="checkingBalance">
+    <jaxb:XmlElement name="checkingBalance" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance" required="false" type="java.lang.Double"/>
+  </annox:field>
+  <annox:field name="savingsBalance">
+    <jaxb:XmlElement name="savingsBalance" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Balance" required="false" type="java.lang.Double"/>
+  </annox:field>
+</annox:class>

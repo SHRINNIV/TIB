@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="Account">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="AccountType" propOrder="customerFirstName customerLastName customerTelephone "/>
+  <jaxb:XmlRootElement name="Account" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Account"/>
+  <annox:field name="customerFirstName">
+    <jaxb:XmlElement name="customerFirstName" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Account"/>
+  </annox:field>
+  <annox:field name="customerLastName">
+    <jaxb:XmlElement name="customerLastName" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Account"/>
+  </annox:field>
+  <annox:field name="customerTelephone">
+    <jaxb:XmlElement name="customerTelephone" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Account"/>
+  </annox:field>
+</annox:class>

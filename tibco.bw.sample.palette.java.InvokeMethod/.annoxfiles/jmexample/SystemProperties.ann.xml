@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="SystemProperties">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="SystemPropertiesType" propOrder="file_separator host_address host_name java_class_path java_class_version java_compiler java_ext_dirs java_home java_io_tmpdir java_library_path java_specification_name java_specification_vendor java_specification_version java_vendor java_vendor_url java_version java_vm_name java_vm_specification_name java_vm_specification_vendor java_vm_specification_version java_vm_vendor java_vm_version line_separator os_arch os_name os_version path_separator user_dir user_home user_name "/>
+  <jaxb:XmlRootElement name="SystemProperties" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  <annox:field name="file_separator">
+    <jaxb:XmlElement name="file_separator" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="host_address">
+    <jaxb:XmlElement name="host_address" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="host_name">
+    <jaxb:XmlElement name="host_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_class_path">
+    <jaxb:XmlElement name="java_class_path" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_class_version">
+    <jaxb:XmlElement name="java_class_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_compiler">
+    <jaxb:XmlElement name="java_compiler" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_ext_dirs">
+    <jaxb:XmlElement name="java_ext_dirs" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_home">
+    <jaxb:XmlElement name="java_home" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_io_tmpdir">
+    <jaxb:XmlElement name="java_io_tmpdir" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_library_path">
+    <jaxb:XmlElement name="java_library_path" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_specification_name">
+    <jaxb:XmlElement name="java_specification_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_specification_vendor">
+    <jaxb:XmlElement name="java_specification_vendor" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_specification_version">
+    <jaxb:XmlElement name="java_specification_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vendor">
+    <jaxb:XmlElement name="java_vendor" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vendor_url">
+    <jaxb:XmlElement name="java_vendor_url" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_version">
+    <jaxb:XmlElement name="java_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_name">
+    <jaxb:XmlElement name="java_vm_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_specification_name">
+    <jaxb:XmlElement name="java_vm_specification_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_specification_vendor">
+    <jaxb:XmlElement name="java_vm_specification_vendor" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_specification_version">
+    <jaxb:XmlElement name="java_vm_specification_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_vendor">
+    <jaxb:XmlElement name="java_vm_vendor" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="java_vm_version">
+    <jaxb:XmlElement name="java_vm_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="line_separator">
+    <jaxb:XmlElement name="line_separator" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="os_arch">
+    <jaxb:XmlElement name="os_arch" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="os_name">
+    <jaxb:XmlElement name="os_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="os_version">
+    <jaxb:XmlElement name="os_version" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="path_separator">
+    <jaxb:XmlElement name="path_separator" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="user_dir">
+    <jaxb:XmlElement name="user_dir" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="user_home">
+    <jaxb:XmlElement name="user_home" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+  <annox:field name="user_name">
+    <jaxb:XmlElement name="user_name" namespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties"/>
+  </annox:field>
+</annox:class>

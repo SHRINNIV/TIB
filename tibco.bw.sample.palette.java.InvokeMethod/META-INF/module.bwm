@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_fZVhMEibEeSTfvLt9h2MXQ" targetNamespace="http://tns.tibco.com/bw/composite/tibco.bw.sample.palette.java.InvokeMethod" name="tibco.bw.sample.palette.java.InvokeMethod" compositeext:version="1.0.0" compositeext:description="Using Java Activities to Publish Information" compositeext:formatVersion="2">
+  <sca:property xmi:id="_ffZs8EibEeSTfvLt9h2MXQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffbiIEibEeSTfvLt9h2MXQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffcwQEibEeSTfvLt9h2MXQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffdXUEibEeSTfvLt9h2MXQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffelcEibEeSTfvLt9h2MXQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fffzkEibEeSTfvLt9h2MXQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffhBsEibEeSTfvLt9h2MXQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffhowEibEeSTfvLt9h2MXQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ffi24EibEeSTfvLt9h2MXQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Tc75QEieEeSTfvLt9h2MXQ" name="Publish_All_Balances_Output" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_ZlbhgEieEeSTfvLt9h2MXQ" name="Publish_Balance_Output" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_awDhkEieEeSTfvLt9h2MXQ" name="Publish_Java_Info_Output" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_b3LhsEieEeSTfvLt9h2MXQ" name="customerLastName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_miPdkEibEeSTfvLt9h2MXQ" name="ComponentPublishAllBalances" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_miPdkUibEeSTfvLt9h2MXQ" processName="tibco.bw.sample.palette.java.invokemethod.PublishAllBalances"/>
+  </sca:component>
+  <sca:component xmi:id="_l6idAEieEeSTfvLt9h2MXQ" name="ComponentPublishBalance" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_l6idAUieEeSTfvLt9h2MXQ" processName="tibco.bw.sample.palette.java.invokemethod.PublishBalance"/>
+  </sca:component>
+  <sca:component xmi:id="_0d8CwEijEeSdVLL3rJ6dHA" name="ComponentPublishJavaInfo" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_0d8CwUijEeSdVLL3rJ6dHA" processName="tibco.bw.sample.palette.java.invokemethod.PublishJavaInfo"/>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties" xmlns:tns="www.tibco.com/plugin/java/xmlSchema/jmexample.SystemProperties" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="SystemProperties" type="tns:SystemPropertiesType"/>
+
+  <xs:complexType name="SystemPropertiesType">
+    <xs:sequence>
+      <xs:element name="file_separator" type="xs:string" minOccurs="0"/>
+      <xs:element name="host_address" type="xs:string" minOccurs="0"/>
+      <xs:element name="host_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_class_path" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_class_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_compiler" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_ext_dirs" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_home" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_io_tmpdir" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_library_path" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_specification_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_specification_vendor" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_specification_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vendor" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vendor_url" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_specification_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_specification_vendor" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_specification_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_vendor" type="xs:string" minOccurs="0"/>
+      <xs:element name="java_vm_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="line_separator" type="xs:string" minOccurs="0"/>
+      <xs:element name="os_arch" type="xs:string" minOccurs="0"/>
+      <xs:element name="os_name" type="xs:string" minOccurs="0"/>
+      <xs:element name="os_version" type="xs:string" minOccurs="0"/>
+      <xs:element name="path_separator" type="xs:string" minOccurs="0"/>
+      <xs:element name="user_dir" type="xs:string" minOccurs="0"/>
+      <xs:element name="user_home" type="xs:string" minOccurs="0"/>
+      <xs:element name="user_name" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

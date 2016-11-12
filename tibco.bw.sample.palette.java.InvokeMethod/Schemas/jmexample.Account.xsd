@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="www.tibco.com/plugin/java/xmlSchema/jmexample.Account" xmlns:tns="www.tibco.com/plugin/java/xmlSchema/jmexample.Account" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Account" type="tns:AccountType"/>
+
+  <xs:complexType name="AccountType">
+    <xs:sequence>
+      <xs:element name="customerFirstName" type="xs:string" minOccurs="0"/>
+      <xs:element name="customerLastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="customerTelephone" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
